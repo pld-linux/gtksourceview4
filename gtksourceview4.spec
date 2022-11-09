@@ -8,12 +8,12 @@
 Summary:	Text widget that extends the standard GTK+ 3.x
 Summary(pl.UTF-8):	Widget tekstowy rozszerzający standardowy z GTK+ 3.x
 Name:		gtksourceview4
-Version:	4.8.3
+Version:	4.8.4
 Release:	1
 License:	LGPL v2+ (library), GPL v2+ (some language specs files)
 Group:		X11/Libraries
 Source0:	https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-%{version}.tar.xz
-# Source0-md5:	e30224c016f1a1ebd931fd44911b5bbc
+# Source0-md5:	2bf056caaae27654ec3a5930dd5597d3
 URL:		https://wiki.gnome.org/Projects/GtkSourceView
 BuildRequires:	docbook-dtd412-xml
 BuildRequires:	fribidi-devel >= 0.19.7
