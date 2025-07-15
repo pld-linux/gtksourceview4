@@ -130,16 +130,16 @@ API GtkSourceView dla języka Vala.
 %endif
 
 %build
-%meson build \
+%meson \
 	%{?with_glade:-Dglade_catalog=true} \
 	%{?with_apidocs:-Dgtk_doc=true}
 
-%ninja_build -C build
+%meson_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%ninja_install -C build
+%meson_install
 
 %find_lang gtksourceview-4
 
